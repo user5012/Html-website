@@ -1,4 +1,5 @@
 # Μαγαζι - Restaurant Website
+you can view the website [here](https://user5012.github.io/Html-website/)
 
 ## Description
 This website is designed for a small restaurant, providing information about the establishment, the daily menu, and ways to connect via social media. The website has a clean and simple design, making it easy for users to navigate and access the relevant information.

@@ -7,13 +7,13 @@ body {
 
 .tops {
     background-color: #2568cc;
-    padding: 10px;
+    padding: 15px;
 }
 
 .tops ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 4px;
     text-align: center;
 }
 
@@ -26,31 +26,50 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    border: #fff solid;
+    margin: 0px;
+    padding: 3px;
 }
 
 .tops a:hover{
     text-decoration: none;
     color: red;
     font-weight: bold;
+    border: red solid;    
     transition: 1s;
 }
 
 
 
-.title{
-    position: fixed;
-    width: 100%;
-    top: 7%;
-    text-align: center;
-    border: #333 double 3mm;
-}
+/* Style for the blog post container */
+.blog-post {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style for the blog post image */
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  /* Style for the blog post title */
+  .blog-post h2 {
+    color: #333;
+  }
+
+  /* Style for the blog post description */
+  .blog-post p {
+    color: #666;
+  }
 
 
-.talogia{
-    position: fixed;
-    width: 100%;
-    top: 20%;
-}
 
 
 .ending {
