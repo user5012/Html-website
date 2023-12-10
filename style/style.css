@@ -18,11 +18,13 @@ body {
     margin: 0;
     padding: 4px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
 }
 
 .tops li {
-    display: inline;
-    margin-right: 20px;
+    margin: 5px; /* Add margin between items */
 }
 
 .tops a {
@@ -30,25 +32,26 @@ body {
     color: #fff;
     font-weight: bold;
     border: #fff solid;
-    margin: 5px;
-    padding: 6px;
-    border-radius: 10cm;
+    padding: 3px;
+    border-radius: 10px;
 }
 
-.tops a:hover{
+.tops a:hover {
     text-decoration: none;
     color: red;
     font-weight: bold;
-    border: red solid;    
+    border: red solid;
     transition: 1s;
 }
+
 
 .title {
     position: sticky;
     width: 100%;
-    top: 10%;
+    top: 12%;
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0px;
+    margin-bottom: 90px;
 }
 
 .title h1 {
@@ -134,3 +137,10 @@ body {
     display: block;
     transition: opacity .2s;
     }
+
+@media screen and (max-width: 600px) {
+    .title{
+        position: sticky;
+        top: 20%;
+    }
+}

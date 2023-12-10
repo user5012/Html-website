@@ -6,6 +6,9 @@ body {
 }
 
 .tops {
+    position: fixed;
+    width: 100%;
+    top: 0%;
     background-color: #2568cc;
     padding: 10px;
 }
@@ -15,11 +18,13 @@ body {
     margin: 0;
     padding: 4px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tops li {
-    display: inline;
-    margin-right: 20px;
+    margin: 5px;
 }
 
 .tops a {
@@ -27,49 +32,47 @@ body {
     color: #fff;
     font-weight: bold;
     border: #fff solid;
-    margin: 0px;
     padding: 3px;
-    border-radius: 10cm;
+    border-radius: 10px;
 }
 
-.tops a:hover{
+.tops a:hover {
     text-decoration: none;
     color: red;
     font-weight: bold;
-    border: red solid;    
+    border: red solid;
     transition: 1s;
 }
 
-
-
-.title{
+.title {
     position: fixed;
-    width: 100%;
+    width: fit-content;
     top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     border: #333 double 3mm;
+    padding: 10px;
+    z-index: 1; /* Add z-index to place it above the .tops */
 }
 
-
-.talogia{
+.talogia {
     position: fixed;
     width: 100%;
     top: 20%;
 }
 
-
 .ending {
     position: fixed;
     bottom: 0;
-    left: 50%; /* Center the element horizontally */
-    transform: translateX(-50%); /* Center the element horizontally */
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     background-color: #2568cc;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
 
 .footer-imges a {
     margin: 0 10px;
